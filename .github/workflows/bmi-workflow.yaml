@@ -22,7 +22,6 @@ jobs:
       - name: Run Codacy Analysis CLI
         uses: codacy/codacy-analysis-cli-action@master
   
-  jobs:
   depchecktest:
     runs-on: ubuntu-latest
     name: depecheck_test
